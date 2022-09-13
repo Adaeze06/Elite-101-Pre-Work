@@ -202,6 +202,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "myname"
+version = "1.0.2"
+description = "A print function"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "numpy"
 version = "1.23.2"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -477,7 +485,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "4ceda468c6ce7d0b641f0c244f742d3a912100cd87f29fbe250fdc0a2528f740"
+content-hash = "3512ff7e576ab04813d99aefd9d1f53deea2aba387aa9e44b9823e62383fd603"
 
 [metadata.files]
 aiohttp = []
@@ -498,6 +506,7 @@ jedi = []
 jinja2 = []
 markupsafe = []
 multidict = []
+myname = []
 numpy = []
 packaging = []
 parso = []
